@@ -1,0 +1,142 @@
+.member{
+    position: relative;
+    background-image: url("../images/background3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    
+}
+.two-member{
+    margin: 120px 0 100px 170px;
+}
+.member-item{
+    width: 43%;
+    
+    position: relative;
+    float: left;
+}
+.member-item .member-title{
+    padding: 0 0 40px 85px;
+}
+.member-title .name{
+    
+    color: white;
+    padding-bottom: 5px;
+}
+.member-title .job{
+    color: #6195ff;
+}
+.member-item .desc{
+    color: white;
+}
+.member-item .person{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.person img{
+    border-radius: 50%;
+}
+
+.element{
+    width: 32%;
+    height: 430px;
+    float: left;
+    position: relative;
+}
+
+.element.mg{
+    
+        margin: 0 2%;
+    
+}
+.element::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+
+
+}
+.element .black{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+    z-index: -1;
+}
+.element:hover:after{
+    height: 100%;
+}
+
+.element .img-overlay{
+    position: absolute;
+    left: 6%;
+    top: 39px;
+    width: 87%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.element:hover .img-overlay{
+   
+    height: 64%;
+
+}
+
+.element img{
+    
+    max-width: 99%;
+    padding: 40px 20px 20px 20px;
+    
+}
+.team-title{
+    text-align: center;
+    
+}
+.team-title .name{
+    padding-bottom: 10px;
+}
+.element:hover .name{
+    color: white;
+}
+.team-title .job{
+    padding-bottom: 90px;
+    color: #888999;
+}
+.element:hover .job{
+    color: #6195ff;
+}
+.element .element-info{
+    position: absolute;
+    top: 9%;
+    right:7%;
+    opacity: 0;
+    visibility: hidden;
+ 
+}
+.element:hover .element-info{
+    opacity: 1;
+    visibility: visible;
+}
+.team .element-info a{
+    color: #fff;
+    display: block;
+    
+ }
+ .team .element-info a i{
+     line-height: 40px;
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     background-color: #6195ff;
+     text-align: center;
+ }
+

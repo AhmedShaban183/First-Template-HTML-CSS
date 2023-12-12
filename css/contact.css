@@ -1,0 +1,64 @@
+
+.contact-inf{
+    text-align: center;
+    width: 32%;
+    float: left;
+}
+.contact-inf.mg{
+    margin: 0 2%;
+}
+.contact-inf a{
+    color: #6195ff;
+    padding-bottom:10px ;
+}
+.contact-inf span{
+    display: block;
+    color: #868F9B;
+    padding: 0px 0 30px 0;
+}
+.contact-inf h3{
+    padding: 11px 0 19px 0;
+}
+
+.contact .table{
+    margin: auto;
+    width: 65%;
+    
+}
+
+.table .background{
+    background-color:  #f9f9f9;
+    border: none;
+}
+.table .fcolumn{
+    display: inline-block;
+    width: 47%;
+    height: 29px;
+    margin: 20px 0px 20px 0px;
+    padding-left: 5px;
+}
+
+.table .scolumn{
+    display: block;
+    margin-bottom: 20px;
+    width: 99%;
+    height: 31px;
+    padding-left: 5px;
+}
+.table .thcolumn{
+    display: block;
+    width: 99%;
+    height: 30px;
+    padding-bottom: 42px;
+    padding-top: 19px;
+    padding-left: 5px;
+
+}
+.table .btn-contact{
+    display:block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 19px 44px;
+    border: none;
+    
+}

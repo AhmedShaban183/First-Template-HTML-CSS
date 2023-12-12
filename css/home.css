@@ -1,0 +1,39 @@
+
+.home{
+    color:white;
+    height: 100vh;
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    position:relative;  
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    
+}
+.home .home-desc{
+    margin: 10px 0px;
+    line-height: 1.5;
+}
+.home .btn{
+    min-width: 160px;
+    margin-top: 20px;
+    margin: 3px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    cursor: pointer ;
+    font-size: 20px;
+}
+.btn-start{
+    background-color: white;
+}
+.btn-learn{
+    background-color: #6195ff;
+    color: #fff;
+}

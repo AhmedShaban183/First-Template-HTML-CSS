@@ -1,0 +1,77 @@
+
+.plan{
+    position: relative;
+    width: 32%;
+    border: 1px solid #eee;
+    
+    text-align: center;
+    float: left;
+    
+}
+.over{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    content: "";
+    width: 100%;
+    height: 0%;
+    background-color: rgb(0, 0, 0);
+    /*opacity: 0;
+    visibility: hidden;*/
+    z-index: -1;
+    transition: height 0.7s;
+
+}
+.plan:hover .over{
+    
+    /*opacity: 1;
+    visibility: visible;*/
+    height: 100%;
+
+}
+.plan:hover .plan-type{
+    transition: color 0.5s;
+    color:#6195ff
+}
+.plan:hover .circle{
+    transition: color 0.5s;
+
+    color: white;
+}
+.plan-type{
+    display: block;
+  color: #888999;
+  
+  padding: 40px 0px 20px 0px;
+}
+.plan .circle{
+    border: 2px solid #6195ff;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+.circle .plan-price{
+    padding-top: 30px;
+    
+    font-size: 45px;
+}
+.plan-details{
+    color: #888999;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 2;
+}
+.plan .plan-ok{
+    background-color: inherit;
+    font-size: inherit;
+    margin-bottom: 40px;
+    padding: 15px 40px 15px 41px;
+    color: #6195ff;
+    border: 2px solid #6195ff;
+}
+.plan.mg{
+    margin: 0 1%;
+}

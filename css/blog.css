@@ -1,0 +1,38 @@
+
+.blog{
+    background-color: #f9f9f9;
+    
+}
+.news{
+    width: 32%;
+    
+    background-color: white;
+    margin-bottom:40px ;
+    float: left;
+}
+.news img{
+    max-width: -webkit-fill-available;
+    padding-bottom: 20px;
+}
+.news.mg{
+    margin: 0 2%;
+}
+.news-info{
+    padding: 0px 30px 40px 20px;
+}
+.news-info a{
+    color: #6195ff;
+}
+.news-info span{
+    padding-right: 8px;
+}
+.news-info h3{
+    padding:20px 0 ;
+    font-size: 23px;
+}
+.news-info p{
+    color: #868F9B;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
